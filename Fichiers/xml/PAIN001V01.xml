@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03&#10;">
+ <GrpHdr>
+  <MsgId>MsgId</MsgId>
+  <CreDtTm>MsgId</CreDtTm>
+  <NbOfTxs>MsgId</NbOfTxs>
+  <CtrlSum>MsgId</CtrlSum>
+  <InitgPty>
+   <Nm>ABC Corporation</Nm>
+  </InitgPty>
+ </GrpHdr>
+ <PmtInf>
+  <PmtInfId>BATCHIDIDAAAAMMDDHHMMSS</PmtInfId>
+  <PmtMtd>TRF</PmtMtd>
+  <NbOfTxs>1</NbOfTxs>
+  <CtrlSum>1</CtrlSum>
+  <PmtTpInf>
+   <InstrPrty>NORM</InstrPrty>
+   <SvcLvl>
+    <Cd>SEPA</Cd>
+   </SvcLvl>
+   <LclInstrm>
+    <Cd>CCI</Cd>
+   </LclInstrm>
+   <CtgyPurp>
+    <Cd>SUPP</Cd>
+   </CtgyPurp>
+  </PmtTpInf>
+ </PmtInf>
+ <ReqdExctnDt>2019-07-08</ReqdExctnDt>
+ <Dbtr>
+  <Nm>Phil with ELCM</Nm>
+ </Dbtr>
+ <DbtrAcct>
+  <Id>
+   <Othr>
+    <Id>001000404030</Id>
+    <SchmeNm>
+     <Cd>BBAN</Cd>
+    </SchmeNm>
+    <Issr>COMPTE POSTEFINANCES DEBITE</Issr>
+   </Othr>
+  </Id>
+ </DbtrAcct>
+ <DbtrAgt>
+  <FinInstnId>
+   <BIC>OSTSND1XXX</BIC>
+  </FinInstnId>
+ </DbtrAgt>
+ <CdtTrfTxInf>
+  <PmtId>
+   <InstrId>OSTSND1XXX</InstrId>
+   <EndToEndId>OSTSND1XXX</EndToEndId>
+  </PmtId>
+  <Amt>
+   <InstdAmt>OSTSND1XXX</InstdAmt>
+  </Amt>
+  <ChrgBr>SLEV</ChrgBr>
+  <CdtrAgt>
+   <FinInstnId>
+    <BIC>POSTSND1XXX</BIC>
+   </FinInstnId>
+  </CdtrAgt>
+  <Cbtr>
+   <Nm>Abram TD</Nm>
+  </Cbtr>
+  <CdtrAcct>
+   <Id>
+    <IBAN>SN4110700100000669110127</IBAN>
+   </Id>
+  </CdtrAcct>
+  <Purp>
+   <Cd>BEXP</Cd>
+  </Purp>
+ </CdtTrfTxInf>
+</Document>

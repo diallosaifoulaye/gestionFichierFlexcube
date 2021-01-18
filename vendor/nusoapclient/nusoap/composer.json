@@ -1,0 +1,22 @@
+{
+    "name": "nusoapclient/nusoap",
+    "description": "NuSOAP re-packaged for Packagist/Composer",
+    "license": "OPL-1.0",
+    "authors": [
+        {
+            "name": "Dietrich Ayala",
+            "homepage": "http://sourceforge.net/u/dietricha/profile/"
+        },
+        {
+            "name": "Scott Nichol",
+            "homepage": "http://sourceforge.net/u/snichol/profile/"
+        },
+        {
+            "name": "William Orazi",
+            "email": "williamorazi@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"classmap": ["lib/"]
+    }
+}

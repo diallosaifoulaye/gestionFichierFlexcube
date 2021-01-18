@@ -1,0 +1,21 @@
+RewriteBase /meczy/
+
+Options +FollowSymlinks
+
+RewriteRule ^test1 ges-api.php?action=test [L]
+#RewriteRule ^login cmu/ges-api.php?action=login [L]
+#RewriteRule ^rechercher/([a-zA-Z0-9]+) cmu/ges-api.php?action=rechercher&matricule=$1 [L]
+#RewriteRule ^encaisser cmu/ges-api.php?action=encaisser [L]
+#RewriteRule ^reimprimer/([a-zA-Z0-9]+) cmu/ges-api.php?action=reimprimer&reference=$1 [L]
+#RewriteRule ^reimprimerDernier/([a-zA-Z0-9]+) cmu/ges-api.php?action=reimprimerDernier&matricule=$1 [L]
+#RewriteRule ^enroler cmu/ges-api.php?action=enrollerBeneficiaire&costumerid=$1 [L]
+#RewriteRule ^parrainerBeneficiaire cmu/ges-api.php?action=parrainerBeneficiaire&costumerid=$1 [L]
+#RewriteRule ^parrainerInitiative cmu/ges-api.php?action=parrainerInitiative&costumerid=$1 [L]
+#RewriteRule ^histoEncaissement cmu/ges-api.php?action=histoEncaissement&costumerid=$1 [L]
+#RewriteRule ^histoEnrolement cmu/ges-api.php?action=histoEnrolement&costumerid=$1 [L]
+
+
+#order deny,allow
+#deny from all
+#allow from 192.168.1.173
+#allow from 41.82.0.198

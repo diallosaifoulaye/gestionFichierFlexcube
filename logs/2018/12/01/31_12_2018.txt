@@ -1,0 +1,32 @@
+update ** user ** champ : [ fk_profil ** prenom ** nom ** email ** agence ** user_modif ** date_modif ] valeur : [ 6 ** Mariama ** BOYE ** mariama.boye@numherit.com ** 1 ** 1 ** 2018-12-31 10:27:43 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ fk_profil ** prenom ** nom ** email ** agence ** user_modif ** date_modif ] valeur : [ 6 ** Mariama ** BOYES ** mariama.boye@numherit.com ** 1 ** 1 ** 2018-12-31 10:27:57 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ fk_profil ** prenom ** nom ** email ** agence ** user_modif ** date_modif ] valeur : [ 6 ** Mariama ** BOYE ** mariama.boye@numherit.com ** 1 ** 1 ** 2018-12-31 11:48:05 ] ** 0 ** 1 ** 1
+delete ** meczy_meczy_droit ** champ : [ id =  ] valeur : [ 10 ] ** 0 ** Reussie ** 1
+delete ** meczy_meczy_module ** champ : [ id =  ] valeur : [ 12 ] ** 0 ** Reussie ** 1
+delete ** meczy_meczy_module ** champ : [ id =  ] valeur : [ 14 ] ** 0 ** Reussie ** 1
+insert ** module ** champ : [ module ] valeur : [ Administration ] ** 1 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ Paramètrage ] ** 2 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ Gestion stock ] ** 3 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ Opération sur les cartes ] ** 4 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ Gestion des TPE ] ** 5 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ Gestion des transactions ] ** 6 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Modules ] ** 2 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Sous modules ] ** 3 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Droit ] ** 4 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Utilisateur ] ** 5 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Profil ] ** 6 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 1 ** Agence ] ** 7 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 2 ** Liste régions ] ** 8 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 2 ** Liste départements ] ** 9 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 2 ** Liste communes ] ** 10 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 2 ** Devise ] ** 11 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 3 ** Liste réception ] ** 12 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 3 ** Liste distribution ] ** 13 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 3 ** Disponibilité carte ] ** 14 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 4 ** Liaison carte à client ] ** 15 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 4 ** Liste carte ] ** 16 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 5 ** Liste des TPEs ] ** 17 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 5 ** Les affectations ] ** 18 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 5 ** Historique des affectations ] ** 19 ** 1 ** 1
+insert ** sous_module ** champ : [ fk_module ** sous_module ] valeur : [ 6 ** Liste des transactions ] ** 20 ** 1 ** 1
+delete ** meczy_meczy_droit ** champ : [ id =  ] valeur : [ 8 ] ** 0 ** Echouee ** 1

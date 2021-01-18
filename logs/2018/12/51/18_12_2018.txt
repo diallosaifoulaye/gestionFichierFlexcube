@@ -1,0 +1,42 @@
+insert ** module ** champ : [ module ] valeur : [ testons un module ] ** 12 ** 1 ** 1
+update ** module ** champ : [ module = ] valeur : [   ] ** 0 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** num_debut ** num_fin ** date_reception ** stock_init ** stock ] valeur : [ 1 ** 2018-12-18 10:16:57 ** 103 ** 201 ** 2018-12-14 ** 99 ** 99 ] ** 0 ** 1 ** 1
+insert ** lotcarte ** champ : [ fk_agence_dest ** fk_lot_origine ** num_debut ** num_fin ** date_distribution ** num_reference ** stock_init ** stock ** user_add ** date_add ** fk_agence_source ] valeur : [ 2 ** 2 ** 103 ** 112 ** 2018-12-18 ** 8UEH4pl7Es ** 10 ** 10 ** 1 ** 2018-12-18 10:18:14 ** 1 ] ** 4 ** 1 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** stock = stock -  ] valeur : [ 1 ** 2018-12-18 10:18:14 ** 10 ] ** 0 ** 1 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** num_debut ** num_fin ** date_reception ** stock_init ** stock ] valeur : [ 1 ** 2018-12-18 10:18:36 ** 103 ** 202 ** 2018-12-14 ** 100 ** 100 ] ** 0 ** 1 ** 1
+insert ** lotcarte_reception ** champ : [ num_debut ** num_fin ** date_reception ** num_reference ** stock_init ** stock ** user_add ** date_add ] valeur : [ A001 ** A100 ** 2018-12-18 ** xHOExoV8Tk ** 1 ** 1 ** 1 ** 2018-12-18 10:24:43 ] ** 5 ** 1 ** 1
+insert ** lotcarte_reception ** champ : [ num_debut ** num_fin ** date_reception ** num_reference ** stock_init ** stock ** user_add ** date_add ] valeur : [ 500 ** 600 ** 2018-12-18 ** jvZ3xzq4UF ** 101 ** 101 ** 1 ** 2018-12-18 10:25:39 ] ** 6 ** 1 ** 1
+insert ** lotcarte ** champ : [ fk_agence_dest ** fk_lot_origine ** num_debut ** num_fin ** date_distribution ** num_reference ** stock_init ** stock ** user_add ** date_add ** fk_agence_source ] valeur : [ 2 ** 6 ** 500 ** 549 ** 2018-12-18 ** fKEZmHYtp3 ** 50 ** 50 ** 1 ** 2018-12-18 10:26:18 ** 1 ] ** 5 ** 1 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** stock = stock -  ] valeur : [ 1 ** 2018-12-18 10:26:18 ** 50 ] ** 0 ** 1 ** 1
+insert ** lotcarte ** champ : [ fk_agence_dest ** fk_lot_origine ** num_debut ** num_fin ** date_distribution ** num_reference ** stock_init ** stock ** user_add ** date_add ** fk_agence_source ] valeur : [ 2 ** 6 ** 550 ** 600 ** 2018-12-18 ** CvBsnk8JhU ** 51 ** 51 ** 1 ** 2018-12-18 10:26:37 ** 1 ] ** 6 ** 1 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** stock = stock -  ] valeur : [ 1 ** 2018-12-18 10:26:37 ** 51 ] ** 0 ** 1 ** 1
+insert ** profil ** champ : [ profil ] valeur : [   ] ** 9 ** 1 ** 1
+update ** region ** champ : [ label ] valeur : [ Dakar ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$v92aeCFB99g78M8TtejAc.XsBQcMdOpkgBDFCVYB/IjhFHMV7XhLa ** 1 ** 1 ** 2018-12-18 11:35:21 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$KjbS5vvU0uJ3M2OL2FNo5.RTH5r3kAF56v0trvkdvgT7.TW0BrCJy ** 1 ** 1 ** 2018-12-18 11:37:12 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$vyVVdJ8C0HqV0mSR436h9eRDrDLmCcmREMec1dG./S2VFagurzMqa ** 1 ** 1 ** 2018-12-18 11:40:44 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$so0sA2ODDNHh2zIT4pwE6en.2M/XdFuahxV8UFQwgZZiF4Bimb1bm ** 1 ** 1 ** 2018-12-18 11:41:55 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$OwLAdYN4NkWfaK10ZIJBMuT7a8Qk9MuCY2QBx9qcWPKhSyP.2i8zu ** 1 ** 1 ** 2018-12-18 11:45:23 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$T.fP1ciEuzkW.Qz8UMCDgutiIWgG2AQBSCshlF5J574hpXrztLFQW ** 1 ** 1 ** 2018-12-18 11:46:04 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$LuWDxzQQ5GK/BauFzSAYGeUOe2Pb2bNWhM42FJe4H.31NNFMel0Au ** 1 ** 1 ** 2018-12-18 11:47:10 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$OkE8bCgTm1snusttxDiZ6.H/MpkyyW8Scc9hXcaOAlu9Gen/lva1K ** 1 ** 1 ** 2018-12-18 11:48:20 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$KjzhgqiLTtQOO/phyXBlgegfzYgs2D8iGPW7JfBO1GA0rAy81cqPG ** 1 ** 1 ** 2018-12-18 11:49:38 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$WyT5WXCn10RsERaSu9jq/.3qdIyLpMW0pAKzW4l/czAoN6FsFT0o. ** 1 ** 1 ** 2018-12-18 11:50:30 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$hacgqEbQGk9k1PH442YR2eDU1qnfvbzA7YeifWvyFyDKytWkyZv82 ** 1 ** 1 ** 2018-12-18 11:51:23 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$EzhP1P1KzwOkmd.DRcYVO.rLr7aZR.aoc4LGjhXkLfyIK/UqAocJa ** 1 ** 1 ** 2018-12-18 11:51:40 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$3U7dKwsOfcSWDggKLfFO/urIvsAQBY5rmhR16M66zlw.91ttUz4Qm ** 1 ** 1 ** 2018-12-18 11:53:00 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$PLRyoStoqrkBr0vqy0mFnOglK/xxue9jbUbdeOIveyifZFnLnntwq ** 1 ** 1 ** 2018-12-18 11:53:13 ] ** 0 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ kej ] ** 14 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ k t ] ** 15 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [ ffdf ] ** 16 ** 1 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** profil ** champ : [ profil ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [    ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [    ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1
+insert ** module ** champ : [ module ] valeur : [   ] ** 0 ** 0 ** 1

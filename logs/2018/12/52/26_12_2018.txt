@@ -1,0 +1,2 @@
+insert ** user ** champ : [ fk_profil ** agence ** prenom ** nom ** email ** password ** connect ** user_crea ** date_crea ** login ] valeur : [ 3 ** 2 ** Boubacar ** SOW ** boubacar.sow@numherit.com ** $2y$09$UC2qS89VAZiccIomJVKbw.OoTZITLreBXXASrhJY9LQEKkGy5aYTe ** 1 ** 1 ** 2018-12-26 09:46:14 ** boubacar.sow@numherit.com ] ** 19 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$/Z/5nBFWQYi2et4eboLXMOBcZm5Vf0U6nXOZXdStaEzfToBnvodfi ** 0 ** 19 ** 2018-12-26 09:47:20 ] ** 0 ** 1 ** 19

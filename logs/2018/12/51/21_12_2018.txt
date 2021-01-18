@@ -1,0 +1,5 @@
+update ** module ** champ : [ module = ] valeur : [ test 2  ] ** 0 ** 1 ** 1
+insert ** user ** champ : [ fk_profil ** agence ** prenom ** nom ** email ** password ** connect ** user_crea ** date_crea ** login ] valeur : [ 3 ** 2 ** Seydou ** TALL ** sntall@icloud.com ** $2y$09$qoMK5wWinE3.0BsOO7Xay.jsTErPzgs0CLeDSF1356fsx30MFgMtW ** 1 ** 1 ** 2018-12-21 10:34:09 ** sntall@icloud.com ] ** 17 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$bt4fdZQriWFBH0cKNMHAIuOajAMWq7HirYfMOY/KMUAXf3TTOiQjS ** 1 ** 1 ** 2018-12-21 10:34:41 ] ** 0 ** 1 ** 1
+insert ** lotcarte ** champ : [ fk_agence_dest ** fk_lot_origine ** num_debut ** num_fin ** date_distribution ** num_reference ** stock_init ** stock ** user_add ** date_add ** fk_agence_source ] valeur : [ 2 ** 2 ** 103 ** 112 ** 2018-12-21 ** 1kiQRTG5K5 ** 10 ** 10 ** 1 ** 2018-12-21 10:36:21 ** 1 ] ** 7 ** 1 ** 1
+update ** lotcarte_reception ** champ : [ user_modif ** date_modif ** stock = stock -  ** flag =  ] valeur : [ 1 ** 2018-12-21 10:36:21 ** 10 ** 1 ] ** 0 ** 1 ** 1

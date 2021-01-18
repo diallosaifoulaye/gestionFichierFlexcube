@@ -1,0 +1,9 @@
+insert ** affectation_materiel ** champ : [ date_debut ** fk_collecteur ** fk_materiel ** user_creation ** date_creation ] valeur : [ 2019-01-03 ** 21 ** 1 ** 1 ** 2019-01-03 09:28:05 ] ** 38 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 21 ] ** 0 ** 1 ** 1
+insert ** affectation_materiel ** champ : [ date_debut ** fk_collecteur ** fk_materiel ** user_creation ** date_creation ] valeur : [ 2019-01-03 ** 21 ** 6 ** 1 ** 2019-01-03 09:33:08 ] ** 39 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 21 ] ** 0 ** 1 ** 1
+insert ** affectation_materiel ** champ : [ date_debut ** fk_collecteur ** fk_materiel ** user_creation ** date_creation ] valeur : [ 2019-01-03 ** 21 ** 2 ** 1 ** 2019-01-03 09:41:37 ] ** 40 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 21 ] ** 0 ** 1 ** 1
+insert ** affectation_materiel ** champ : [ date_debut ** fk_collecteur ** fk_materiel ** user_creation ** date_creation ] valeur : [ 2019-01-03 ** 8 ** 1 ** 1 ** 2019-01-03 09:49:03 ] ** 41 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 8 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ uiid ] valeur : [ uiid1 ] ** 0 ** 1 ** 1

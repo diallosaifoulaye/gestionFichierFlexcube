@@ -1,0 +1,30 @@
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 10:46:49 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 11:17:28 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 11:18:42 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 11:24:02 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 11:33:12 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 11:34:50 ] ** 0 ** 1 ** 1
+update ** profil ** champ : [ etat ] valeur : [ Désactiver ] ** 0 ** 1 ** 1
+update ** profil ** champ : [ etat ] valeur : [ Activer ] ** 0 ** 1 ** 1
+insert ** user ** champ : [ fk_profil ** agence ** prenom ** nom ** email ** password ** connect ** user_crea ** date_crea ** login ] valeur : [ 3 ** 2 ** Babacar ** sow ** boubacar.sow@numherit.com ** $2y$09$kgCKlUT7Zr1cui.cDTz3aecTDaK2fr4lWv8MXXqYGQ83gx/HN9lrW ** 1 ** 1 ** 2018-12-17 12:31:43 ** boubacar.sow@numherit.com ] ** 0 ** 0 ** 1
+update ** module ** champ : [ module = ] valeur : [ Gestion cartes  ] ** 0 ** 1 ** 1
+update ** module ** champ : [ module = ] valeur : [  Gestion cartes  ] ** 0 ** 1 ** 1
+update ** module ** champ : [ module = ] valeur : [        ] ** 0 ** 1 ** 1
+update ** module ** champ : [ module = ] valeur : [ Gestion cartes ] ** 0 ** 1 ** 1
+update ** region ** champ : [ etat ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 13:10:49 ] ** 0 ** 1 ** 
+update ** equipement ** champ : [ etat ] valeur : [ 1 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ etat ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 15:25:09 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 15:25:25 ] ** 0 ** 1 ** 1
+update ** equipement ** champ : [ affecter ] valeur : [ 0 ] ** 0 ** 1 ** 1
+update ** affectation_materiel ** champ : [ date_fin ] valeur : [ 2018-12-17 15:33:14 ] ** 0 ** 1 ** 1

@@ -1,0 +1,5 @@
+update ** user ** champ : [ etat ] valeur : [ Activer ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$nI3iifgJliZbqB60Bh5wMO8z2MrlZbgacQmYwLs05vD10RfQmiLEu ** 1 ** 1 ** 2018-12-14 16:43:15 ] ** 0 ** 1 ** 1
+insert ** carte ** champ : [ code_client ** nom_complet_client ** telephone ** numero ** numero_serie ** date_expiration ** embossage ** commentaire ** solde ** user_crea ** date_crea ** fk_agence ** cle_secrete ] valeur : [ -èèè-i ** MOUSTAPHA CISSE **  **  **  **  **  **  ** 0 ** 1 ** 2018-12-14 17:22:11 ** 1 ** 3914 ] ** 5 ** 1 ** 1
+update ** module ** champ : [ module = ] valeur : [ Gestion cartes ] ** 0 ** 1 ** 1
+update ** sous_module ** champ : [ fk_module = ** sous_module = ] valeur : [ 8 ** tester ] ** 0 ** 1 ** 1

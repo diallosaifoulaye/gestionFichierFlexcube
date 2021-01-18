@@ -1,0 +1,2 @@
+update ** user ** champ : [ fk_profil ** prenom ** nom ** email ** agence ** user_modif ** date_modif ] valeur : [ 6 ** Mariama ** BOYE ** mariama.boye@numherit.com **  ** 1 ** 2018-12-20 11:31:23 ] ** 0 ** 1 ** 1
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$09$4OgrBDBZx5obKBCLxmsp8Os52u6BA88enn944K8K0RLw2QnqBwmki ** 1 ** 1 ** 2018-12-20 11:34:56 ] ** 0 ** 1 ** 1

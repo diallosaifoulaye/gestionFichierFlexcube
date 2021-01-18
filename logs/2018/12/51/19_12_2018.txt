@@ -1,0 +1,4 @@
+update ** user ** champ : [ password ** connect ** user_modif ** date_modif ] valeur : [ $2y$10$Eta2fLuvlnHnkNLedi8TrefcspESp/Xo5j0jMVEYY.3P.RLOsCNpq ** 0 ** 5 ** 2018-12-19 09:44:17 ] ** 0 ** 1 ** 5
+insert ** hours ** champ : [ min ** max ] valeur : [ 23:00 ** 08:00 ] ** 1 ** 1 ** 1
+update ** region ** champ : [ label ] valeur : [ Dakar ] ** 0 ** 1 ** 1
+update ** hours ** champ : [ etat ] valeur : [ Activer ] ** 0 ** 1 ** 1

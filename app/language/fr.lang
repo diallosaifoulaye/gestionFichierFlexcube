@@ -1,0 +1,1102 @@
+[Lang]
+;SunuFramework
+confirmTitre = "Confirmation"
+confirmBtnOk = "Oui"
+confirmBtnKo = "Non"
+confirmMessage = "Etes vous sur de vouloir effectuer cette action ?"
+fr="Français"
+us="Anglais"
+
+
+generation_file = "Chargement de fichier"
+files_genered = "Fichiers txt chargés"
+txt_to_excel = "(TXT , PRN) => EXCEL"
+xls_to_xml = "XLS => XML"
+files_xls_genered = "Fichiers excel chargés"
+extention_file = "Extensions des fichiers"
+Historique_file = "Historique"
+user_flexcube_id = "ID User Flexcube"
+plat_file = "Fichiers plats"
+rapport = "Rapport"
+listeFileGenered = 'Liste des Fichiers txt chargés'
+listeExcelFileGenered = 'Liste des Fichiers excel chargés'
+chargementFile = 'Chargement de fichier'
+chargerFile = 'Charger un fichier'
+type_file = 'Formats fichiers partenaires'
+nom = 'Nom'
+libelle = 'Libelle'
+newType = 'Nouveau type'
+extention = 'Extention'
+choiceTxtFile = 'Veuillez choisir un fichier txt'
+choiceExcelFile = 'Veuillez choisir un fichier excel'
+ajoutType = 'Ajout de type fichier'
+formats = 'Formats'
+ajoutDescription = 'Ajout descriptions nouvelle colonne'
+mois_comptable = 'Mois comptable'
+annee_comptable = 'Année comptable'
+code_agence = 'Code agence'
+modifDescription = 'Modification des descriptions'
+modifLineNoLoding = 'Modification de ligne non chargée'
+ajoutColonne = 'Nouvelle colonne'
+nom_colonne = 'Nom colonne'
+type = 'Nom colonne'
+longueur = 'Longueur'
+de = 'De'
+a = 'A'
+position = 'Colonne'
+newFormat = 'Nouveau format'
+type = 'Type'
+commentaire = 'Commentaire'
+date_chargement = 'Date chargement'
+nom_fichier = 'Nom fichier'
+periode = 'Période'
+nb_ligne = 'Lignes'
+duree_chargement = 'Durée chargement'
+nb_success = 'Lignes chargées'
+nb_error = 'non chargées'
+en_attente = 'Attente validation'
+valide = 'Validé'
+select_partenaire = "Sélectionner le partenaire"
+
+not_file = 'Pas de fichier correspondant'
+info_fichier = 'Informations du fichier'
+lines_non_charge = 'Lignes non chargées'
+lines_charge = 'Lignes chargées'
+rejet = 'Rejeté'
+rapport = 'Rapport'
+detail_fichier_charge = 'Détail fichier chargé'
+element_absent = 'Aucun élément correspondant'
+generer_excel = 'Générer en excel'
+format_file = 'Format descriptif du fichier'
+line = "ligne"
+succes_charged = "Fichier chargé avec succés"
+pf = "PF"
+rapport_mensuel = "RAPPORT CHARGEMENT FICHIER SALAIRE"
+imprimer=" Imprimer rapport"
+echec_add_element = "Ajout element"
+num_line = "numéro ligne"
+file_empty = "Veuillez choisir un fichier non vide"
+file_must_content_line = "Le fichier doit contenir au moins une ligne "
+agence_chargement = 'Agence chargement'
+detail_rapport_chargement = 'Détails rapport chargement'
+
+;menu home
+administration = 'Administration'
+utilisateur = 'Utilisateur'
+action = 'Droit'
+actions = 'Action'
+profils = 'Profil'
+group = 'Type profil'
+modules = 'Modules'
+sousmodules = 'Sous modules'
+accueil = 'Accueil'
+pays = 'Pays'
+type_interconnexion = 'Type interconnexion'
+actionsuccess = 'Action effectuée avec succes'
+actionsuccessDeleteUser = 'Action effectuée avec succes : Supression agent confirmé'
+actionechec = 'Action non effectuée'
+actionechecDeleteUser = 'Action non effectuée : Suppression agent pas possible '
+messageentete = "message d'entête"
+numheritby = " © 2019 BY NUMHERIT SA"
+
+;header
+se_deconnecter = 'Se déconnecter'
+mon_profil = 'Mon profil'
+module = 'Module'
+bjrcher = 'Bonjour cher(e)'
+
+;administration
+email_existe = "Cet email existe déjà dans la base de données"
+adminerror = "Accés refusé"
+
+
+;Bouton
+btnValider= 'Valider'
+btnFermer= 'Fermer'
+btnAjouter= 'Ajouter'
+btnModifier= 'Modifier'
+btnRetour= 'Retour'
+btnDesactiver= 'Desactiver'
+btnActiver= 'Activé'
+activer= 'Activé'
+desactiver= 'Activé'
+btnmodifpwd= 'Modifier mot de passe'
+btnAnnuler= 'Annuler'
+btnRetourner= 'Retourner'
+
+
+;page droit
+droit = 'Droit'
+ajoutDroit = 'Nouveau Droit'
+labDroit = 'Droit'
+labController = 'Controller'
+labAction = 'Action'
+labMethode = 'Méthode'
+controllerObligatoire = 'Le controller est obligatoire'
+droitObligatoire= 'Le droit est obligatoire'
+actionObligatoire= 'L action est obligatoire'
+listeDroit= 'Liste des droits'
+modifDroit= 'Modification Droit'
+succes_add_droit = 'Droit ajouté avec succès'
+echec_add_droit = 'Echec ajout du droit'
+succes_update_droit = 'Droit modifié avec succès'
+echec_update_droit = 'Echec de la modification du droit'
+succes_activate_droit = 'Droit activé avec succès'
+echec_activate_droit = 'Echec activation du droit'
+succes_desactivate_droit = 'Droit désactivé avec succès'
+echec_desactivate_droit = 'Echec de la désactivation du droit'
+succes_delete_droit = 'Droit supprimé avec succès'
+echec_delete_droit = 'Echec de la suppression du droit'
+
+
+;page droit Type de Profil
+ajoutTypeprofil = 'Enregistrement des Types de Profils'
+labTypep = 'Libellé type de Profil'
+typeproObligatoire= 'Le Type de profil est obligatoire'
+listeTypep= 'Liste des types de profil'
+thTypep= 'Type de Profil'
+modifTypep= 'Modification des Types de Profils'
+
+
+;page Module
+btnAjoutService = 'Nouveau Service'
+btnAjouterModule = 'Ajouter Module'
+btnAjouterSousModule = 'Ajouter Sous Module'
+btnAjouterDroit = 'Ajouter droit'
+ajoutModule = 'Ajout de Module'
+ajoutSousModule = 'Ajout de Sous Module'
+labModule = 'Libellé Module'
+labSousModule = 'Libellé Sous Module'
+moduleObligatoire= 'Le libellé du module est obligatoire'
+listeModule= 'Liste des Modules'
+listeSousModule= 'Liste des Sous Modules'
+thlibModule= 'Libellé Module'
+modifModule= 'Modification de Module'
+succes_add_module = 'Module ajouté avec succès'
+echec_add_module = 'Echec ajout du module'
+succes_update_module = 'Module modifié avec succès'
+echec_update_module = 'Echec de la modification du module'
+succes_activate_module = 'Module activé avec succès'
+echec_activate_module = 'Echec activation du module'
+succes_desactivate_module = 'Module désactivé avec succès'
+echec_desactivate_module = 'Echec de la désactivation du module'
+succes_delete_module = 'Module supprimé avec succès'
+echec_delete_module = 'Echec de la suppression du module'
+operateur = 'Gestion Opérateurs'
+operation = 'Gestion Opérations'
+update_Module = 'Modification de Module'
+update_Droit = 'Modification de Droit'
+update_Profil = 'Modification de Profil'
+update_SousModule = 'Modification de sous Module'
+
+
+;page Pays
+btnAjouterPays = 'Nouveau Pays'
+btnAjouterProfil = 'Ajouter Profil'
+ajoutPays = 'Ajout de Pays'
+labPays = 'Pays'
+paysObligatoire = 'Le libellé du pays est obligatoire'
+listePays = 'Liste des Pays'
+thlibPays = 'Pays'
+modifPays = 'Modification de Pays'
+succes_add_pays = 'Pays ajouté avec succès'
+echec_add_pays = 'Echec ajout du pays'
+succes_update_pays = 'Pays modifié avec succès'
+echec_update_pays = 'Echec de la modification du pays'
+succes_activate_pays = 'Pays activé avec succès'
+echec_activate_pays = 'Echec activation du pays'
+succes_desactivate_pays = 'Pays désactivé avec succès'
+echec_desactivate_pays = 'Echec de la désactivation du pays'
+succes_delete_pays = 'Pays supprimé avec succès'
+echec_delete_pays = 'Echec de la suppression du pays'
+
+
+;page Profil
+ajoutProfil = 'Enregistrement des Profils'
+labProfil = 'Profil'
+profilObligatoire= 'Le profil est obligatoire'
+listeProfil= 'Liste des profils'
+thProfil= 'Profils'
+thEtat= 'Etat'
+modifProfil= 'Modification de Profil'
+
+
+;page utilisateur
+ajoutUtilisateur = 'Nouveau Utilisateur'
+labprenom = 'Prenom'
+labnom = 'Nom'
+labemail = 'Adresse email'
+labLogin = 'Login'
+labLogin = 'Identifiant'
+labpwd = 'Mot de passe'
+labnpwd = 'Nouveau mot de passe'
+labcnpwd = 'Confirmation nouveau mot de passe'
+prenomObligatoire= 'Le Prenom est obligatoire'
+prenomLettre= 'Le Prenom doit etre en lettre'
+nomObligatoire= 'Le nom est obligatoire'
+nomLettre= 'Le nom doit etre en lettre'
+emailObligatoire= 'L email est obligatoire'
+emailInvalide= 'L adresse email est invalide'
+loginObligatoire= 'Le login est obligatoire'
+pwdObligatoire= 'Le mot de passe est obligatoire'
+listeUtilisateur= 'Liste des utilisateurs'
+modifUtilisateur= 'Modification Utilisateur'
+detailUser= 'Detail Utilisateur'
+modifpwdUtilisateur= 'Modification mot de passe'
+detailUser1= 'Detail de l utilisateur :'
+npasswordObligatoire='Entrer le nouveau mot de passe'
+cpasswordObligatoire='Confirmer le nouveau mot de passe'
+cpasswordc='Confirmation incorecte'
+passwordObligatoire= 'Le mot de passe est obligatoire'
+renew_password= 'Mettre à jour votre mot de passe'
+renew_passwordMsg = 'Le mot de passe doit contenir au moins :'
+minuscule = ' minuscule '
+majuscule = ' majuscule '
+chiffre = ' chiffre'
+caractere = '8 caractères'
+minimum = ' minimum'
+un = 'Un'
+une = 'Une'
+lettre = 'lettre'
+
+
+;page affectation
+listeAffectation = 'Liste des affectations de droits'
+tabBord = 'Tableau de Bord'
+thSModule = 'Sous module'
+thdroit = 'Droit'
+
+
+;parametrage
+operateur = 'GESTION OPERATEURS'
+operation = 'GESTION OPERATIONS'
+parametrage= 'PARAMETRAGE & REFERENCEMENT'
+adminModule= 'ADMINISTRATION'
+gest_fourn= 'GESTION FOURNISSEUR'
+gest_service= 'GESTION SERVICE'
+tarif= 'Tarif'
+paramtarif= 'Tarif'
+labpoidsmin= 'Poids Min'
+labpoidsmax= 'Poids Max'
+labprix= 'Prix TTC'
+labpoidsminObligatoire= 'Tarif'
+
+
+detail_user= 'Détails Utilisateur'
+list_users= 'Liste des Utilisateurs'
+tel='Téléphone'
+
+
+
+
+;page api fournisseur
+api_four = 'API Fournisseur'
+liste_api_four = 'Liste des API Fournisseurs'
+label_api_four = 'API Fournisseur'
+libelle_api_four = 'Nom API'
+ip_api_four = 'Adresse IP'
+lien_api_four = 'Url'
+ajout_api_four = 'Nouvelle API'
+modifApiFour = 'Modification API Fournisseur'
+labelApiObligatoire= 'Le label est obligatoire'
+lienApiObligatoire= 'Le lien est obligatoire'
+ip_api_Obligatoire= 'L adresse IP est obligatoire'
+succes_add_api_four = 'API ajouté avec succès'
+echec_add_api_four = 'Echec ajout API'
+succes_update_api_four = 'API fournisseur modifié avec succès'
+echec_update_api_four = 'Echec de la modification API fournisseur'
+succes_activate_api_four = 'API fournisseur activé avec succès'
+echec_activate_api_four = 'Echec activation API fournisseur'
+succes_desactivate_api_four = 'API fournisseur désactivé avec succès'
+echec_desactivate_api_four = 'Echec de la désactivation API fournisseur'
+succes_delete_api_four = 'API fournisseur supprimé avec succès'
+echec_delete_api_four = 'Echec de la suppression API fournisseur'
+select_fournisseur = 'Sélectionnez le fournisseur'
+select_typewebservice = 'Sélectionnez le type webservice'
+select_typeinterconnexion = 'Sélectionnez le type interconnexion'
+labelApiObligatoire = 'Label API obligatoire'
+lienObligatoire = 'Lien API obligatoire'
+ipObligatoire = 'Adresse IP obligatoire'
+fournisseurObligatoire = 'Fournisseur obligatoire'
+documentation = 'Documentation'
+username = 'Username'
+password = 'Password'
+key = 'Clé'
+identifier = 'Identification'
+token = 'Token'
+param_identification = 'Paramétres identification'
+param_generale = 'Paramétres généraux'
+details_fournisseur = 'Détails Fournisseur'
+
+
+;page web service
+web_service = 'Web Service'
+liste_ws = 'Liste des Web Service'
+label_ws = 'Web Service'
+ajout_ws = 'Nouveau Web Service'
+modif_ws = 'Modification Web Service'
+label_ws_obligatoire= 'Le label est obligatoire'
+succes_add_ws = 'Web Service ajouté avec succès'
+echec_add_ws = 'Echec ajout Web Service'
+succes_update_ws = 'Web Service modifié avec succès'
+echec_update_ws = 'Echec modification Web Service'
+succes_activate_ws = 'Web Service activé avec succès'
+echec_activate_ws = 'Echec activation Web Service'
+succes_desactivate_ws = 'Web Service désactivé avec succès'
+echec_desactivate_ws = 'Echec désactivation Web Service'
+succes_delete_ws = 'Web Service supprimé avec succès'
+echec_delete_ws = 'Echec suppression Web Service'
+select_api = 'Sélectionnez API'
+
+
+;page code retour web service
+code_retour = 'Code de Retour'
+liste_cr = 'Liste Codes de Retour'
+code_cr = 'Code'
+msg_fr_cr = 'Message en français'
+msg_en_cr = 'Message en anglais'
+ajout_cr = 'Code de Retour'
+modif_cr = 'Modification code  de retour'
+code_cr_obligatoire = 'Code obligatoire'
+msg_fr_cr_obligatoire = 'Message en français obligatoire'
+msg_en_cr_obligatoire = 'Message en anglais obligatoire'
+succes_add_cr = 'Code de retour ajouté avec succès'
+echec_add_cr = 'Echec ajout code de retour'
+succes_update_cr = 'Code de retour modifié avec succès'
+echec_update_cr = 'Echec modification code de retour'
+succes_activate_cr = 'Code de retour activé avec succès'
+echec_activate_cr = 'Echec activation code de retour'
+succes_desactivate_cr = 'Code de retour désactivé avec succès'
+echec_desactivate_cr = 'Echec désactivation Code de retour'
+succes_delete_cr = 'Code de retour supprimé avec succès'
+echec_delete_cr = 'Echec suppression code de retour'
+select_ws = 'Sélectionnez le Web Service'
+
+
+modification_user= 'Modification Utilisateur'
+update_photo= 'Mise à jour photo'
+non='Non'
+oui='Oui'
+admin = 'admin'
+btn_retour = 'Retour'
+btn_activer= 'Activé'
+btn_desactiver= 'Désactivé'
+Desactiver= 'Désactiver'
+modifier= 'Modifier'
+reinitialiser= 'Réinitialiser Mot de Passe'
+update= 'Mettre à jour'
+desactivation='Désactivation'
+message_desactivation='Voulez-vous confirmer la désactivation?'
+activation='Activation'
+message_activation="Voulez-vous confirmer l'activation?"
+reset = "Réinitialiser"
+user_no_authorized = "Cet utilisateur n'est pas autorisé à se connecter sur la plateforme"
+
+photo='Photo'
+action_profil_autorise= 'Les actions autorisées pour le profil'
+select_all = 'Sélectionner tout le module'
+enregistrer= 'Enregistrer'
+action_success=' SUCCES : Action effectuée avec succès'
+
+
+;page categorie service
+cat_service = 'Catégorie service'
+list_cat_service = 'Liste Catégorie Service'
+btnAjouterCatService = 'Nouvelle Catégorie Service'
+btnAjouterUtilisateur = 'Ajouter Utilisateur'
+btnEditUser = 'Modifier Utilisateur'
+modif_catservice = 'Modification Catégorie Service'
+thlibCatService= 'Libellé catégorie service'
+succes_add_catservice = 'Catégorie service ajouté avec succès'
+echec_add_catservice = 'Echec ajout Catégorie service'
+catServiceObligatoire= 'Le libellé de la catégorie service est obligatoire'
+succes_update_catservice = 'Catégorie service modifié avec succès'
+echec_update_catservice = 'Echec modification Catégorie service'
+succes_activate_catservice = 'Catégorie service activé avec succès'
+echec_activate_catservice = 'Echec activation Catégorie service'
+succes_desactivate_catservice = 'Catégorie service désactivé avec succès'
+echec_desactivate_catservice = 'Echec désactivation Catégorie service'
+type_webservice = 'Type web service'
+typewebServiceObligatoire= 'Le libellé du type web service est obligatoire'
+thlibTypeWebService= 'Type web service'
+btnAjouterTypeWebService = 'Nouveau Type Web Service'
+modif_typewebservice = 'Modification Type Web Service'
+echec_add_typewebservice = 'Echec ajout Type Web Service'
+succes_add_typewebservice = 'Type web service ajouté avec succès'
+succes_update_typewebservice = 'Type web service modifié avec succès'
+echec_update_typewebservice = 'Echec modification Type web service'
+succes_activate_typewebservice = 'Type web service activé avec succès'
+echec_activate_typewebservice = 'Echec activation Type web service'
+succes_desactivate_typewebservice = 'Type web service désactivé avec succès'
+echec_desactivate_typewebservice = 'Echec désactivation Type web service'
+type_interconnexion = 'Type interconnexion'
+typeinterconnectionObligatoire= 'Le libellé du type interconnection est obligatoire'
+thlibTypeInterconnexion= 'Type interconnexion'
+btnAjouterTypeInterconnexion = 'Nouveau Type Interconnexion'
+modif_typeinterconnexion = 'Modification Type Interconnexion'
+echec_add_typeinterconnexion = 'Echec ajout Type Interconnexion'
+succes_add_typeinterconnexion = 'Type interconnexion ajouté avec succès'
+succes_update_typeinterconnexion = 'Type interconnexion modifié avec succès'
+echec_update_typeinterconnexion = 'Echec modification Type interconnexion'
+succes_activate_typeinterconnexion = 'Type interconnexion activé avec succès'
+echec_activate_typeinterconnexion = 'Echec activation Type interconnexion'
+succes_desactivate_typeinterconnexion = 'Type interconnexion désactivé avec succès'
+echec_desactivate_typeinterconnexion = 'Echec désactivation Type interconnexion'
+succes_delete_catservice = 'Catégorie service supprimé avec succès'
+echec_delete_catservice = 'Echec de la suppression de la catégorie service'
+
+
+;page service
+service = 'Service'
+list_service = 'Liste Service'
+btnAjouterService = 'Nouveau Service'
+modif_service = 'Modification Service'
+thlibService= 'Libellé service'
+succes_add_service = 'Service ajouté avec succès'
+echec_add_service = 'Echec ajout service'
+serviceObligatoire= 'Le libellé du service est obligatoire'
+succes_update_service = 'Service modifié avec succès'
+echec_update_service = 'Echec modification Service'
+succes_activate_service = 'Service activé avec succès'
+echec_activate_service = 'Echec activation Service'
+succes_desactivate_service = 'Service désactivé avec succès'
+echec_desactivate_service = 'Echec désactivation Service'
+succes_delete_service = 'Service supprimé avec succès'
+echec_delete_service = 'Echec de la suppression du service'
+select_cat_service = 'Sélectionner catégorie de service'
+dispo_service = 'Liste des pays où le service'
+est_dispo = 'est disponible'
+disponibilite_partout = "Disponibilité à l'international"
+oui = 'Oui'
+non = 'Non'
+detail_service = 'Détail Service'
+voir_infos_detaillees_service = "Voir les informations du service"
+cree_par = "Créé par"
+cree_le = "Créé le"
+modifie_par = "Modifié par"
+modifie_le = "Modifié le"
+infos = "Informations générales"
+tarifs_frais = "Tarification Frais"
+disponibilite = "Disponibilité"
+disponibilite_du_pays = "Pays où le Service est disponible"
+erreurs_ws = "Erreurs Web Services"
+thService = "Service"
+thCatService = "Catégorie Service"
+montant_deb = "Montant début"
+montant_fin = "Montant fin"
+tva = "TVA"
+ht = "Hors Taxe"
+valeur = "Valeur"
+modif_tarif_frais = 'Modification Tarif Frais'
+succes_update_tarif_frais = 'Service modifié avec succès'
+echec_update_tarif_frais = 'Echec modification Service'
+btnAjouterErrorWS = "Erreur Web Service"
+thlibCode = "Code"
+thlibFr = "Libellé Français"
+thlibEn = "Libellé Anglais"
+select_service = 'Sélectionnez le Service'
+code_error_ws_obligatoire= 'Le code est obligatoire'
+libelle_fr_error_ws_obligatoire= 'Le service est obligatoire'
+libelle_en_error_ws_obligatoire= 'Le libellé en anglais est obligatoire'
+error_ws_serviceObligatoire= 'Le service est obligatoire'
+ajout_error_ws = 'Nouvelle erreur webservice'
+modif_error_ws = 'Modification erreur webservice'
+commission_par_palier = 'Commission par palier'
+commission = 'Commission'
+methode = 'Méthode'
+
+
+;page partenaire
+gestion_partenaires = 'Gestion des Partenaires'
+modification_partenaire = 'Modification Partenaire'
+partenaire = 'Partenaire'
+partenaires = 'Partenaires'
+raison_sociale = 'Raison Sociale'
+cle = 'Clé'
+email_partenaire = 'Email'
+tel_partenaire = 'Téléphone'
+adresse_partenaire = 'Adresse'
+listePartenaire= 'Liste des Partenaires'
+ajoutPartenaire= 'Nouveau Partenaire'
+ajout_partenaire = 'Nouveau Partenaire'
+modif_partenaire = 'Modification Partenaire'
+raison_sociale_obligatoire = 'Raison sociale obligatoire'
+succes_add_partenaire = 'Partenaire ajouté avec succès'
+echec_add_partenaire = 'Echec ajout partenaire'
+succes_update_partenaire = 'Partenaire modifié avec succès'
+echec_update_partenaire = 'Echec modification partenaire'
+succes_activate_partenaire = 'Partenaire activé avec succès'
+echec_activate_partenaire = 'Echec activation partenaire'
+succes_desactivate_partenaire = 'Partenaire désactivé avec succès'
+echec_desactivate_partenaire = 'Echec désactivation partenaire'
+succes_delete_partenaire = 'Partenaire supprimé avec succès'
+echec_delete_partenaire = 'Echec suppression partenaire'
+config_service_partenaire = 'Souscription service partenaire'
+select_all = 'Sélectionner tous'
+Informations_partenaire = 'Informations partenaire'
+Services_souscrits = 'Services souscrits'
+sous_action_success = "Souscription réussie"
+
+
+;page first connection
+Modifier_motpass='Modification mot de passe'
+newmotdepasse='Nouveau mot de passe'
+ancienmotdepasse='Ancien mot de passe'
+confirmmotdepasse='Confirmation mot de passe'
+pass_alert_error='Ancien mot de passe incorrect'
+pass_alert_success='Ancien mot de passe correct'
+confirmpass_alert_error='Les deux mot de passe ne correspondent pas'
+confirmpass_alert_success='Confirmation mot de passe valide'
+pass_success='Modification mot de passe avec succès'
+pass_echoue='Echec Modification mot de passe'
+default= 'Glissez-déposez un fichier ici ou cliquez'
+replace= 'Glissez-déposez un fichier ou cliquez pour remplacer'
+remove= 'Supprimer'
+affecter_droit= 'Affecter des droits'
+error= 'Désolé, le fichier est trop volumineux'
+
+
+;message entete
+liste_message = "Liste des Messages d'entête"
+message = "Message d'entête"
+add_message = "Nouveau message d'entête"
+succes_add_message = 'Message ajouté avec succès'
+echec_add_message = 'Echec ajout du message'
+expediteur = 'Expéditeur'
+expediteurObligatoire= "L'expéditeur est obligatoire"
+messageObligatoire= "Le message est obligatoire"
+modifMessage= 'Modification message'
+succes_activate_message = 'Message activé avec succès'
+echec_activate_message = 'Echec activation du message'
+succes_desactivate_message = 'Message désactivé avec succès'
+echec_desactivate_message = 'Echec de la désactivation du message'
+succes_delete_message = 'Message supprimé avec succès'
+echec_delete_message = 'Echec de la suppression du message'
+succes_update_message = 'Message modifié avec succès'
+echec_update_message = 'Echec de la modification du message'
+parametrage_commission = 'Paramètrage Commission'
+Msg_Ecr = 'Veuillez renseigner tous les champs '
+Msg_error = 'Erreur'
+Msg_equi = "Le montant fin doit etre supérieur ou égal au montant début"
+
+verif_success = "Vérification effectuée avec succès"
+AjouterNewCarte = "Ajout de Cartes"
+chooseFileCSV="Choisir un fichier CSV"
+operator = "Opérateur"
+num_desti = "Numéro téléphone destinataire"
+price_detail = "liste des prix en détail"
+
+; ----- Adama Diallo -----
+patrimoine = "Patrimoine"
+quantite = "Quantite"
+msg_quantite = "Nombre de cartes choisi est supérieur à la quantité stocké "
+struct = "Structures"
+type_struct = "Type Structures"
+prod = "Productions"
+activite = "Activités"
+test="TEST"
+imprimer="Imprimer"
+sectActivite = "Secteur d'activité"
+listePatrimoine = "Liste des patrimoines"
+listetypeStructure = "Liste des types de structure"
+listeStructure = "Liste des structure"
+listeProduction = "Liste des production"
+listeActivite = "Liste des acivités"
+listeSecteurActivite = "Liste des secteurs d'activité"
+btnaddpatrim = "Ajouter patrimoine"
+btnaddtypestruct = "Ajouter type structure"
+btnaddstruct = "Ajouter structure"
+btnaddprod = "Ajouter production"
+btnaddactivite = "Ajouter activité"
+btnaddasectctivite = "Ajouter secteur d'activité"
+label = "Label"
+ref = "Referencement"
+date_crea = "Date création"
+user_crea = "User création"
+entite = "Entite"
+dateExp = "Date d'expiration"
+labelTStruct = " Type dtructure"
+labelSectActivite = "Secteur d'activité"
+addpatrimoine = "Ajout d'un nouveau patrimoine"
+addtypestruct = "Ajout d'un nouveau type de structure"
+addstruct = "Ajout d'une nouvelle structure"
+addprod = "Ajout d'une nouvelle production"
+addactivite = "Ajout d'une nouvelle activité"
+addsectactivite = "Ajout d'un nouveaux secteur d'activité"
+modifpatrim = "Modification du patrimoine"
+modiftypestruct = "Modification du type de structure"
+modifstruct = "Modification de la structure"
+modifprod = "Modification de la production"
+modifactivite = "Modification de l'activité"
+modifsectact = "Modification du secteur d'activité"
+patrimoineaddsuccess = "Patrimoine ajouté avec succès"
+patrimoineaddechec = "Echec de l'ajout du patrimoine"
+typestructaddsuccess = "Structure ajoutée avec succès"
+typestructaddechec = "Echec de l'ajout du type de structure"
+activationsuccess = "Succès activation"
+desactivationsuccess = "Succès désactivation"
+activeechec = "Echec de l'activation"
+desactivechec = "Echec de la désactivation"
+modifsucces = "Succès de la modification"
+modifechec = "Echec de la modification"
+deletePatrimSucces = "Patrimoine supprimé"
+deletePatrimEchec = "Echec de la suppression du patrimoine"
+deleteTypeStructSucces = "Type structure supprimé"
+deleteTypeStructEchec = "Echec de la suppression du type de structure"
+deleteStructSucces = "Structure supprimée"
+deleteStructEchec = "Echec de la suppression de la structure"
+deleteProdSucces = "Production supprimée"
+deleteProdEchec = "Echec de la suppression de la production"
+deleteActiviteSucces = "Activité supprimée"
+deleteActiviteEchec = "Echec de la suppression de l'activité"
+deleteSectActiviteSucces = "Secteur d'activité supprimée"
+deleteSectActiviteEchec = "Echec de la suppression du secteur d'activité"
+choixStruct = "--Veuillez choisir un type de structure--"
+choixSectActivite = "--Veuillez choisir un secteur d'activité--"
+
+
+
+
+btnmodifFonction='Modifier Fonction'
+btnAjoutFonction='Ajout Fonction'
+listeFonction='Liste des Fonctions'
+btnAjouterFonction='Ajouter Fonctions'
+labfonction='Fonctions'
+du='Du'
+au='Au'
+export='Exporter'
+repech="Pas de transaction durant cette période"
+titre="MUTUELLE D'EPARGNE<br/>ET DE CREDIT<br/>DE LA ZONE DE YOFF"
+piedp="MECZY, Agrement DK198 - 00145,"
+piedp1="www.meczy.sn"
+listetrans="Liste des Transactions"
+graf="Montant transactions "
+graf2="Nombre transactions "
+graf3="Nombre transactions selon le genre "
+graf4="Transactions selon la tranche d'âge "
+graf0 = "Transactions par service"
+graf5 = "Transactions par agence"
+adresse_four = "Description "
+adresse_four = "Adresse "
+totServ = "Total transactions selon service"
+
+
+;::::::::::::::::::::::::::ADMINISTRATION
+;::::::::::::::::::::::::::SIDEBAR
+config='Paramètrage'
+region_list = 'Liste régions'
+dept_list = 'Liste départements'
+commune_list = 'Liste communes'
+labelregion = 'Nom'
+labeldept = 'Nom'
+labelcom = 'Nom'
+labregion = 'Région'
+labdept = 'Département'
+btnAjouterRegion = 'Ajouter région'
+btnModifierRegion = 'Modifier région'
+btnAjouterDepartement = 'Ajouter département'
+btnModifierDepartement = 'Modifier département'
+btnAjouterCommune = 'Ajouter commune'
+btnModifierCommune = 'Modifier commune'
+menu_list = 'Menu'
+home = 'Accueil'
+qte_importer = 'Quantité importée'
+gestioncarte = 'Gestion des cartes'
+operationcarte = 'Gestion des cartes'
+reception_list = 'Liste réception'
+distribution_list = 'Liste distribution'
+btnAjouterReception = 'Ajouter réception'
+btnAjouterDistribution = 'Ajouter distribution'
+ref_carte = 'Référence'
+date_recept_carte = 'Date réception'
+date_expire_carte = 'Date expiration'
+date_retournee = 'Date Retournée'
+date_dist_carte = 'Date distribution'
+num_debut_carte = 'Numéro de série début'
+num_fin_carte = 'Numéro de série fin'
+stock_init_carte = 'Stock en cours'
+stock_restant_carte = 'Stock restant'
+debutinffin = 'Attention! Numéro de série début supérieur à numéro de série fin'
+chevauch_recept = "Chevauchement du lot avec un lot déjà réceptionné"
+chevauch_dist = "Chevauchement du lot avec un lot déjà distribué"
+add_lot_success = "Lot de carte réceptionné avec succès"
+add_distribution_success = "Lot de carte distribué avec succès"
+add_lot_error = "Erreur réception lot de carte"
+add_distribution_error = "Erreur distribution lot de carte"
+lotorigine = 'Lot origine'
+dispocarte = 'Disponibilité carte'
+nbcarterecu = 'Nombre de cartes reçues'
+nbcartevendu = 'Nombre de cartes vendues'
+nbcarteretour = 'Nombre de cartes retournées'
+nbcarterestante = 'Nombre de cartes restantes'
+nbcartetodistribuer = 'Nombre de cartes à distribuer'
+selectlot = 'Sélectionner le lot de carte'
+liste_numero_serie = 'Liste des numéros de série'
+selectagence = "Sélectionner l'agence"
+userdesactive = "Utilisateur désactivé. Impossible de vous connecter sur la plateforme"
+userPwdtoUpdated = "Vous devez mettre à jour votre mot de passe"
+userdontexist = "Utilisateur non existant. Impossible de vous connecter sur la plateforme"
+userchangepass = "Connexion réussie. Veuillez changer votre mot de passe"
+userconnect = "Connexion réussie."
+wrongpass = "Mot de passe incorrect."
+cardToCust = "Cartes activées"
+ListcardToCust = "Cartes activées"
+nomclient = "Nom"
+import = "Import"
+detail_reception = "Detail Reception de carte"
+labetat = "Etat"
+prenomclient = "Prénom"
+piececlient = "N° pièce"
+datenaissclient = "Date de naissance"
+searchCust = "Rechercher un client"
+codeclient = "Code client"
+toconnect = "Se connecter"
+carte_list = "Cartes à embosser"
+embossage = "Embossage"
+date_exp_carte = "Date expiration"
+num_carte = "N° carte"
+num_serie = "N° série"
+tel_client = "N° téléphone"
+enrollement_carte = "Enrollement"
+select_profil = "Sélectionner le profil"
+select_agence = "Sélectionner l'agence"
+select_commune = "Sélectionner la commune"
+select_tpe = "Sélectionner le TPE"
+select_collecteur = "Sélectionner le collecteur"
+liste_carte_retournee = "Liste cartes retournées"
+carte_retournee = "Retour carte"
+a_la_une = "A la une MECZY"
+meczy = "MECZY"
+recover_password = "Mot de passe oublié"
+email = "Email"
+btnModifierReception = "Modifier réception"
+btnModifierDistribution = "Modifier distribution"
+updatePassword = "Changer mot de passe"
+lotcarte = "Lot de carte"
+ges_trans = "Reporting"
+list_trans = "Suivi transactions"
+select_sous_module = "Sélectionner le sous module"
+date_transact = "Date transaction"
+num_transact = "N° transaction"
+montant_transact = "Montant (XOF)"
+lemontant = "Montant "
+yearGest = "Année de gestion : "
+
+
+;::::::::::::::::::::::::::GESTION DES CARTES
+beneficiaire_liste='Liste des bénéficiares'
+carte_liste='Liste des cartes'
+
+;::::::::::::::::::::::::::GESTION DES AFFECTATIONS DE MATERIEL
+ges_tpe='Gestion TPE'
+finAffectation='Fin affectation'
+liste_tpe='Liste TPE'
+affectations='Les affectations TPE'
+affectations_tpe='Les affectations faites sur le TPE'
+histo_aff='Historique affectations'
+tpe_new="Ajouter TPE"
+tpe_update="Modifier TPE"
+ref_tpe="Référence"
+nom="Nom"
+tpe="TPE"
+uiid="UIID"
+statut="Statut"
+tpe_libelle="Libellé"
+tpe_detail="Détail TPE"
+tpe_info="Informations"
+tpe_affectation="Affectations"
+retour="Retour"
+detail_carte_reception="Détail des Receptions de cartes"
+liste_affectations="Liste des affectations"
+affectation_new="Ajouter affectation"
+affectation_update="Modification affectation"
+date_affectation="Date affectation"
+collecteur="Collecteur"
+equipement="Equipement"
+prenom_collecteur="Prenom collecteur"
+nom_collecteur="Nom collecteur"
+affecte_a="Affecté à"
+alaune="A la une MECZY"
+histo_tpe="Historique des affectations TPE"
+filtre_periodique="Filtre par période"
+filtre_agence="Filtre par agence"
+retour_lot_carte="Retour de lot"
+labadresse="Adresse"
+tel_four="Téléphone"
+email_four="Email"
+Carte_stock_initial="Sock Initial"
+Carte_Enstock="Carte en  Stock"
+Carte_vendu="Carte Activée"
+Carte_endommage="Carte Endommagée"
+Carte_distribue="Carte Distribuée"
+Carte_embosse="Carte Embossée"
+embosse=" Embosser"
+detail_embosse=" Detail des cartes embossées"
+Carte_enrole="Carte Enrollée"
+btnseek="Rechercher"
+statTransFail="Échouée"
+statTransSuccess="Réussie"
+Homme="Homme"
+Femme="Femme"
+Indefini="Indéfini"
+
+yearOne = "0 à 18 ans"
+yearTwo = "19 à 35 ans"
+yearTree = "36 à 59 ans"
+yearFour = "plus de 60 ans"
+thmntt = "Montant total"
+
+
+;::::::: ABIGAIL YETE ::::
+agence_list="Liste des agences"
+agence_new="Ajouter agence"
+agence_edit="Modification agence"
+agence_code="Code agence"
+agence_libelle="Libellé"
+agence_libelleBiq="Nom agence"
+agence_libelleBis="Nom agence"
+agence_resp="Responsable"
+agence_reg="Région"
+agence="Agence"
+num_lot="N° Lot"
+motif="Motif de retour"
+select_motif="Selectionnez motif"
+reload_pwd = "Voulez vous regénérer le mot de passe de cet utilisateur ?"
+reload_pwd1 = "Regénération du mot de passe"
+edit_pwd = "Modification du mot de passe"
+edit_pwd1 = "Ancien mot de passe"
+edit_pwd2 = "Nouveau mot de passe"
+edit_pwd3 = "Confirmation mot de passe"
+devise = "Devise"
+devise_new = "Ajouter devise"
+devise_edit = "Modifier devise"
+commune = "Commune"
+pwd_bad = "Mot de passe incorrect"
+unfunded_client = "Client inexistant"
+comment = "Commentaire"
+nom_complet = "Nom complet"
+num_carte = "Numéro de carte"
+num_carte_serie = "Numéro de série"
+labdatedexpi1 = 'Date expiration'
+embossage = "Embossage"
+card_info =  "Informations de la carte"
+bad_card = "Carte déja attribuée"
+no_blank_space = "Espace non autoriser au début"
+hours = "Plage horaires"
+hoursBis = "Plage horaires transactions"
+hours1 = "Horaires"
+hours2 = "Nouvelle horaire"
+hours3 = "De"
+hours4 = "À"
+hour_debut= "Heure de debut"
+hour_fin= "Heure de fin"
+hours5 = "Début transactions"
+hours6 = "Fin transactions"
+cartedejaenrollee = "Cette carte a déjà été enrollée pour un client"
+enrollement_echec= "Enrollement non effectué"
+vente_echec= "Cette carte n'appartient pas à un lot de l'agence"
+moisexp= "Mois"
+anexp= "Année"
+labcode= "Code collecteur"
+operation_reussie= "operation reussie avec succes"
+operation_echec= "operation echec"
+date_retour= "Date de retour"
+agence_retour= "Agence de retour"
+stock_retour= "stock retourné"
+liste_carte_retournee= "Liste des cartes retournées"
+liste_des_carte_retournee= "liste des cartes retournées"
+enroller_par="Enrollée par"
+agent_initiateur = 'Agence initiateur'
+agent_autorisateur = 'Agent autorisateur'
+
+localisation="Localisation"
+localisationCollecteur="Localisation des collecteurs"
+code="Code"
+position="Position"
+prenom="Prenom"
+
+versement = Versement
+versements = Versements
+do_versement = Faire versement
+histo_versement= Historique
+collectnonversees= Les collectes non encore versées
+montant_collecte= Montant collecté
+nb_jour= Nombre de jour
+
+date_collect= Date de la collecte
+date_collecte= Date collecte
+montant_collect= Montant collecté
+retour= Retour
+total= Total
+annuler= Annuler
+montant_verse= Montant versé
+desactiver_collecteur= Désactiver collecteur
+histo_versement= Historique des versements
+historique= Historique
+montant= Montant
+date= Date
+nombre= Nombre de versement
+collectteur= Collectteur
+detail_versement= Détail versement
+infos_versement= Informations versement
+collecte= Collecte du
+date_versement= Date versement
+msg_email_reset= "Un e-mail va être envoyé à l'admin pour la regénération de votre mot de passe"
+email_inexsitant= E-mail inexistant
+verser= Verser
+montant_verser= Montant à verser
+code_client=Code client
+
+tooltipModif = "Modifier"
+localiser = "Localiser"
+modif = "Modifier"
+detail = "Détail"
+tooltipActive = "Activé"
+tooltipDesactive = "Désactivé"
+tooltipRegenerer = "Regénéré"
+lesDetails = "Détails"
+;::::::::::::Cheikhfall khouma:::::
+email_invalide="Email Invalide"
+echoue="Echouée"
+reussi="Reussie"
+non_affecter="Non Affecté"
+affecter="Affecté"
+alerte_connect="veuillez vous connecter sur votre compte en cliquant sur ce"
+regenere_password="Votre mot de passe a été regénéré, "
+notification_collecteur_connect="Veuillez vous connecter sur votre compte en cliquant sur ce"
+mot_de_passe="mot de passe:"
+notification_collecteur="Veuillez vous connecter sur l'application mobile des collecteurs avec les identifiants suivants :"
+
+
+
+; ------- Mansour --------
+; Administration
+succesactiveregion = "Région activée avec succès"
+echecactiveregion = "Echec de l'activation de la région"
+succesdesactiveregion = "Région désactivée avec succès"
+echecdesactiveregion = "Echec désactivation de la région"
+success_active_depart = "Département activé avec succès"
+echec_active_depart = "Echec désactivation du département"
+success_desactive_depart = "Département désactivé avec succès"
+echec_desactive_depart = "Echec désactivation du département"
+success_active_commune = "Commune activée avec succès"
+echec_active_commune = "Echec désactivation de la commune"
+success_desactive_commune = "Commune désactivée avec succès"
+echec_desactive_commune = "Echec désactivation de la commune"
+
+; Home
+contenu_mail_regenerationPwd_1 = "Votre mot de passe a été réinitialisé"
+contenu_mail_regenerationPwd_2 = "veuillez vous connecter sur votre compte en cliquant sur ce"
+lien = "lien "
+login = "Login: "
+new_password = "Nouveau mot de passe: "
+user = "L'utilisateur"
+contenu_mail_sendEmailToAdmin_1 = "souhaite regénérer son mot de passe"
+contenu_mail_sendEmailToAdmin_2 = "de connexion à l'application"
+
+; Agence
+success_active_agence = "Agence activée avec succès"
+echec_active_agence = "Echec désactivation de l'agence"
+success_desactive_agence = "Agence désactivée avec succès"
+echec_desactive_agence = "Echec désactivation de l'agence"
+distribuer = 'Réintégrer'
+btnAjoutProfil = 'Ajouter Profil'
+
+select_region = "Sélectionner la région"
+select_dept = "Sélectionner le département"
+detail_distribution = "DETAIL DISTRIBUTION"
+quantite_retour = "Quantité retournée"
+
+sousModule= Liste sous modules
+versement_list=" Liste des versements"
+
+export_date=" Date export"
+recu_versemnt=" Reçu versement"
+montant_collecte= "Montant collecté"
+agent= "Agent"
+caissier= "Caissier"
+signature_collecteur= "Signature collecteur"
+signature_agent= "Signature agent"
+carte_integre = "Lot de carte réintégré avec succès"
+stock_initial="Sock Initial"
+alertStock = "Le lot à retourner n'appartient à aucun lot de distribution"
+tpeTitle1 = 'AFFECTATION TPE'
+tpetexte11 = " Date d'impression : "
+tpetexte1 = 'Le TPE  '
+tpetexte2 = " à éte affecté au collecteur "
+tpetexte3 = ' du '
+tpetexte4 = ' à '
+tpetexte7 = ' Visa collecteur '
+tpetexte8 = "Visa Chef d'agence"
+tpetexte9 = 'H à  '
+tpetexte10 = ' H '
+tpetexte11 = " Date d'impression : "
+tpetexte12 = ' à '
+suivi_action = "Suivi action"
+lbl_transaction = "Nombre de transactions"
+labcodeCollect = "Code collecteur"
+labplafond = "Plafond transactions TPE"
+labplafondDepot = "Dépôt "
+labplafondRetrait = "Retrait "
+tooltipConsulter = "Détails"
+titleDetails = "Informations sur l'agent"
+tooltipDelete = "Supprimer"
+numcompte_client = "N° compte client"
+code_client = "Code client"
+valid_trans = "Validation transaction"
+num = "Numéros"
+retourva="Ce numéros existe déja : veuillez saisir un autre!!!"
+valsucces="Validation effectuée avec succés!!!"
+valechec="Echec validation!!!"
+txtmsgEchecTrans1 = " Vous êtes sur le point de mettre à jour la transaction N°"
+txtmsgEchecTrans2 = "Effectuée par le collecteur : "
+txtmsgEchecTrans3 = "pour le client : "
+txtmsgEchecTrans4 = "sur son numéro de compte :"
+txtmsgEchecTrans5 = "Montant de la transaction (xof) :"
+txtmsgEchecTrans5Bis = "En lettre :"
+txtmsgEchecTrans6 = "à la date du : "
+txtmsgEchecTrans0 = "Avertissement :"
+txtmsgTtitle = "Validation transaction échouée"
+txtDevise = " francs"
+txtmsgvaliderTrans = " Confirmer la transaction...!"
+txtlblNumTransSAF = "Numéro transaction"
+txtlblNumTransSAFBis = "N.B : Renseigner le numéro de transaction figurant au niveau de l'application SAF..."
+txtErreNumTransact = "Numéro transaction déjà utilisé...!"
+btnCorriger = "Valider transaction "
+txtTransactAction = "Update transaction échouée"
+txtTransactDescription = "Succès: Update N° transaction de SAF #"
+txtTransactResult = "Reussie"
+montant_transactBis= "Montant collecté (XOF)"
+thmnttBis= "Total transaction (XOF) "
+mntMIN= "MIN. (XOF) : "
+mntMAX= "MAX. (XOF) : "
+mntMINL= "MONTANT EN LETTRE (XOF) : "
+mntMAXL= "MONTANT EN LETTRE (XOF) : "
+lblDepot= "Dépôt "
+lblRetrait= "Retrait "
+
+date_heure = "Date et heure"
+nombre_ligne = "Nbre. de lignes trouvées"
+nombre_ligne_charge = "Nbre. de lignes chargées"
+nombre_ligne_probleme = "Nbre. de lignes à problème"
+montant_apres_chargement = 'Montant après chargement'
+statut_rapport = 'Statut du rapport'
+
+
+;Papa NGOM
+dictionnaire = 'Dictionnaire matricule'
+matricule = 'Matricule'
+prenom_nom = 'Prenom & nom'
+numcompte = 'Numéro de compte'
+dictionnaire_mat_compte = 'Dictionnaire matricule compte'
+succesactivedictionnaire = 'Dictionnaire activé avec succès'
+succesdesactivedictionnaire = 'Dictionnaire désactivé avec succès'
+echecactivedictionnaire = 'Activation dictionnaire échoué'
+echecdesactivedictionnaire = 'Désactivation dictionnaire échoué'
+btnModifierDictionnaire = 'Modification dictionnaire'
+btnAjouterDictionnaire = 'Ajout un nouveau dictionnaire'
+loadfile = 'Charger un fichier'
+toLoadDictionnaire = 'Chargement fichier dictionnaire'
+file_dict = 'Fichier dictionnaire'
+error11 = 'Erreur'
+dictionnaire_list = 'Liste des comptes dans le dictionnaire'
